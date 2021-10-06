@@ -7,6 +7,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
     }
     public void OnOpenInGoogleMaps(View view){
         EditText teamAddress = (EditText) findViewById(R.id.teamAddress);
-        Uri gmmIntentUri=Uri.parse("http://maps.google.co.in/maps?="+teamAddress.getText());
-        Intent mapIntent= new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+        Uri gmmIntentUri=Uri.parse("http://maps.google.co.in/maps?q="+teamAddress.getText());
+        Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
         mapIntent.setPackage("com.google.android.apps.maps");
         startActivity(mapIntent);
     }
