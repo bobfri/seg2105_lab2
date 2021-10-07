@@ -7,4 +7,15 @@
     <string name="please_enter_a_team_name">Please enter a team name</string>
     <string name="team_name">Team Name</string>
     <string name="profileavatar">profileAvatar</string>
+    <string name="select_a_new_avatar">Select a new avatar</string>
+    <string name="germany">germany</string>
+    <string name="belgium">belgium</string>
+    <string name="france">france</string>
+    <string name="italy">italy</string>
+    <string name="ireland">ireland</string>
+    <string name="sweden">sweden</string>
+    <string name="finland">finland</string>
+    <string name="denmark">denmark</string>
+    <string name="norway">norway</string>
+    <string name="iceland">iceland</string>
 </resources>
