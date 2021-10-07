@@ -66,9 +66,6 @@ public class MainActivity extends AppCompatActivity {
                             case R.id.flagid08:
                                 drawableName="flag_08";
                                 break;
-                            case R.id.flagid09:
-                                drawableName="flag_09";
-                                break;
                             default:
                                 drawableName="flag_00";
                                 break;

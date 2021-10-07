@@ -122,19 +122,5 @@
                 app:srcCompat="@drawable/flag_08" />
         </TableRow>
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="10dp">
-
-            <ImageView
-                android:id="@+id/flagid09"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:contentDescription="@string/iceland"
-                android:onClick="SetTeamIcon"
-                app:srcCompat="@drawable/flag_09" />
-        </TableRow>
-
     </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
